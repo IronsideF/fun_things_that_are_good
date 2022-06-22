@@ -1,5 +1,3 @@
-
-
 def prime_nums(initial, end):
     testing_range = list(range(initial, end))
     prime_num_list = [2, ]
