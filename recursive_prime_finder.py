@@ -1,5 +1,5 @@
 def prime_nums(initial, end):
-    testing_range = list(range(initial, end))
+    testing_range = range(initial, end)
     prime_num_list = [2, ]
     for num in testing_range:
         is_prime = True
