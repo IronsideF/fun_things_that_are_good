@@ -3,8 +3,8 @@ def prime_nums(end):
     prime_num_list = [2, ]
     for num in testing_range:
         is_prime = True
-        for i in prime_num_list:
-            if num % i == 0:
+        for prime in prime_num_list:
+            if num % prime == 0:
                 is_prime = False     
         if is_prime == False:
             pass
