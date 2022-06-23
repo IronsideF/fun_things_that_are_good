@@ -5,9 +5,7 @@ def prime_nums(end):
         is_prime = True
         for i in prime_num_list:
             if num % i == 0:
-                is_prime = False   
-            elif num == 1:
-                is_prime = False   
+                is_prime = False     
         if is_prime == False:
             pass
         else:
